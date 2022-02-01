@@ -1,5 +1,11 @@
 # Getting Started with Create React App
 
+# Process for Running React App in Node 12
+
+npm uninstall -g create-react-app
+npm install -g create-react-app@3.4.1
+create-react-app my-app --scripts-version 4.0.2
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
