@@ -13,6 +13,9 @@ module.exports = {
         "font-raleway-regular": ["Raleway-Regular", "Calibri"],
         "font-raleway-bold": ["Raleway-Bold"],
       },
+      width: {
+        "-23": "23%",
+      },
     },
   },
   variants: {
