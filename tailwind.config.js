@@ -8,6 +8,10 @@ module.exports = {
       },
       backgroundImage: {
         "hero-pattern": "url('/src/assets/Images/Hero Image.png')",
+        "about-hero-pattern": "url('/src/assets/Images/About-HeroImg.png')",
+        "tharu-hero-pattern": "url('/src/assets/Images/tharu.jpeg')",
+        "bardiya-hero-pattern": "url('/src/assets/Images/bardiya.jpeg')",
+        "sherpas-hero-pattern": "url('/src/assets/Images/sherpas.jpg')",
       },
       fontFamily: {
         "font-raleway-regular": ["Raleway-Regular", "Calibri"],
