@@ -3,13 +3,12 @@ import { Link } from "react-router-dom";
 import trippin from "../assets/Images/whats_trippin.jpg";
 import lakhe from "../assets/Images/lakhe.jpg";
 import chart from "../assets/Images/10_ of total revenue-transparent.png";
-import search from "../assets/Graphics/search_ico.svg";
 import Footer from "./Footer";
 
 function About() {
   return (
     <>
-      <div className="max-w-full overflow-x-hidden h-screen bg-about-hero-pattern bg-cover bg-no-repeat">
+      <div className="max-w-full overflow-hidden h-screen bg-about-hero-pattern bg-cover bg-no-repeat">
         <div className="py-32 px-3 md:py-64 md:px-36">
           <h1 className="w-full md:w-6/12  text-4xl  md:text-7xl mb-5 font-bold text-white">
             More than just a Travel Platform
@@ -89,6 +88,9 @@ function About() {
       {/* stories */}
       <div className="tripping_section3 py-36 px-5 flex md:px-36">
         <div className="popular_experiences_details flex flex-col justify-center w-full items-center mx-auto ">
+          <h1 className=" md:w-max text-5xl md:text-6xl mb-5 font-bold ">
+            Stories of <span className="text-red-600">Trippin</span> Hosts
+          </h1>
           <div className="popular_experiences_images mx-auto p-2 flex-wrap flex justify-center  h-full  ">
             <div className="flex flex-col justify-center bg-gray-100 mr-5 mt-5 bg-tharu-hero-pattern bg-top bg-contain bg-no-repeat w-full rounded-3xl shadow-xl px-5 py-14 items-center md:w-3/12">
               {/* <img src={tharu} className="" alt="tharu" /> */}
@@ -146,68 +148,7 @@ function About() {
           </div>
         </div>
       </div>
-      {/* what are you waiting */}
-      <div className="waiting  w-auto md:h-screen md:pt-40 ">
-        <div className="flex flex-col   justify-center items-center  mx-auto  md:w-10/12">
-          <div className="md:flex-1 justify-center items-center p-14 md:px-14 w-full md:w-8/12">
-            <h1 className="text-4xl md:text-5xl font-bold w-full mb-3 ">
-              So what are you waiting for?
-            </h1>
-            <p className="text-lg">
-              Don’t hesitate. We take care of everything, and we will be with
-              you throughout your whole journey
-            </p>
-          </div>
-          <div className="flex w-full  items-center justify-center">
-            <input
-              type="text"
-              className="  flex w-7/12 border-2 border-gray-700 px-5 py-3 rounded-full"
-              placeholder="Book Homestays, Local Guides, etc."
-            />
-            <img
-              src={search}
-              className=" flex h-10 relative md:right-16 cursor-pointer"
-              alt="search"
-            />
-          </div>
-          <Link to="/">
-            <button className=" bg-red-700 mx-auto mt-6 flex w-max text-white px-6 text-2xl py-3 rounded-3xl">
-              Explore Experiences
-            </button>
-          </Link>
-        </div>
-      </div>
-      {/* stay inspired */}
-      <div className="waiting  w-auto md:h-screen md:pt-40 md:bg-gray-200 ">
-        <div className="flex flex-col   justify-center items-center  mx-auto  md:w-9/12">
-          <div className="md:flex-1 justify-center items-center p-14 md:px-14 w-full md:w-8/12">
-            <h1 className="text-4xl md:text-5xl font-bold w-full mb-3 ">
-              Stay Inspired All Year Round?
-            </h1>
-            <p className="text-lg">
-              Subscribe to our Newsletter and recieve latest travel news and
-              stories
-            </p>
-          </div>
-          <div className="flex flex-col w-full  items-center justify-center">
-            <input
-              type="text"
-              className="  flex w-7/12 border-2 border-gray-700 px-5 py-3 mb-5 rounded-full"
-              placeholder="Your Name"
-            />
-            <input
-              type="text"
-              className="  flex w-7/12 border-2 border-gray-700 px-5 py-3 rounded-full"
-              placeholder="name@email.com"
-            />
-          </div>
-          <Link to="/">
-            <button className=" bg-red-700 mx-auto mt-6 flex w-max text-white px-6 text-2xl py-3 rounded-3xl">
-              Subscribe
-            </button>
-          </Link>
-        </div>
-      </div>
+
       {/* Footer */}
       <Footer />
     </>

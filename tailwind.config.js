@@ -12,6 +12,9 @@ module.exports = {
         "tharu-hero-pattern": "url('/src/assets/Images/tharu.jpeg')",
         "bardiya-hero-pattern": "url('/src/assets/Images/bardiya.jpeg')",
         "sherpas-hero-pattern": "url('/src/assets/Images/sherpas.jpg')",
+        "bandipur-hero-pattern": "url('/src/assets/Images/bandipur_tab.jpg')",
+        "bardiya_tab-hero-pattern": "url('/src/assets/Images/bardiya_tab.jpg')",
+        "narphu-hero-pattern": "url('/src/assets/Images/nar_phu.jpg')",
       },
       fontFamily: {
         "font-raleway-regular": ["Raleway-Regular", "Calibri"],

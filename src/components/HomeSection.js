@@ -234,68 +234,7 @@ function HomeSection() {
           </div>
         </div>
       </div>
-      {/* what are you waiting */}
-      <div className="waiting  w-auto md:h-screen md:pt-40 ">
-        <div className="flex flex-col   justify-center items-center  mx-auto  md:w-10/12">
-          <div className="md:flex-1 justify-center items-center p-14 md:px-14 w-full md:w-8/12">
-            <h1 className="text-4xl md:text-5xl font-bold w-full mb-3 ">
-              So what are you waiting for?
-            </h1>
-            <p className="text-lg">
-              Don’t hesitate. We take care of everything, and we will be with
-              you throughout your whole journey
-            </p>
-          </div>
-          <div className="flex w-full  items-center justify-center">
-            <input
-              type="text"
-              className="  flex w-7/12 border-2 border-gray-700 px-5 py-3 rounded-full"
-              placeholder="Book Homestays, Local Guides, etc."
-            />
-            <img
-              src={search}
-              className=" flex h-10 relative md:right-16 cursor-pointer"
-              alt="search"
-            />
-          </div>
-          <Link to="/">
-            <button className=" bg-red-700 mx-auto mt-6 flex w-max text-white px-6 text-2xl py-3 rounded-3xl">
-              Explore Experiences
-            </button>
-          </Link>
-        </div>
-      </div>
-      {/* stay inspired */}
-      <div className="waiting  w-auto md:h-screen md:pt-40 md:bg-gray-200 ">
-        <div className="flex flex-col   justify-center items-center  mx-auto  md:w-9/12">
-          <div className="md:flex-1 justify-center items-center p-14 md:px-14 w-full md:w-8/12">
-            <h1 className="text-4xl md:text-5xl font-bold w-full mb-3 ">
-              Stay Inspired All Year Round?
-            </h1>
-            <p className="text-lg">
-              Subscribe to our Newsletter and recieve latest travel news and
-              stories
-            </p>
-          </div>
-          <div className="flex flex-col w-full  items-center justify-center">
-            <input
-              type="text"
-              className="  flex w-7/12 border-2 border-gray-700 px-5 py-3 mb-5 rounded-full"
-              placeholder="Your Name"
-            />
-            <input
-              type="text"
-              className="  flex w-7/12 border-2 border-gray-700 px-5 py-3 rounded-full"
-              placeholder="name@email.com"
-            />
-          </div>
-          <Link to="/">
-            <button className=" bg-red-700 mx-auto mt-6 flex w-max text-white px-6 text-2xl py-3 rounded-3xl">
-              Subscribe
-            </button>
-          </Link>
-        </div>
-      </div>
+
       {/* Footer */}
       <Footer />
     </div>
