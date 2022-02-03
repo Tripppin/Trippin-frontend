@@ -17,12 +17,15 @@ function Experiences() {
           <h1>Wildlife</h1>
         </div>
         <div className="tripping_section3 py-10 px-5 flex flex-col md:px-36">
-          <h1 className=" md:w-max text-5xl md:text-6xl mb-5 font-bold md:px-28 ">
+          <h1 className=" md:w-max text-4xl md:text-6xl mb-5 font-bold md:px-28 ">
             Experiences
           </h1>
           <div className="popular_experiences_details flex flex-col justify-center w-full items-center mx-auto ">
             <div className="popular_experiences_images mx-auto p-2 flex-wrap flex justify-center  h-full  ">
-              <div className="flex flex-col justify-center bg-gray-100 mr-5 mt-5 bg-bandipur-hero-pattern bg-top bg-contain bg-no-repeat w-full rounded-3xl relative shadow-xl px-5 py-14 items-center md:w-3/12">
+              <Link
+                to="/package"
+                className="flex flex-col justify-center bg-gray-100 mr-5 mt-5 bg-bandipur-hero-pattern bg-top bg-contain bg-no-repeat w-full rounded-3xl relative shadow-xl px-5 py-14 items-center md:w-3/12"
+              >
                 <div className="flex flex-col  absolute top-12 right-5 items-center">
                   <img src={heart_def} className="h-12" alt="heart" />
                   <p className="text-xl font-semibold text-white">273</p>
@@ -47,8 +50,11 @@ function Experiences() {
                     </div>
                   </div>
                 </div>
-              </div>
-              <div className="flex flex-col justify-center bg-gray-100 mr-5 mt-5 bg-bandipur-hero-pattern bg-top bg-contain bg-no-repeat w-full rounded-3xl relative shadow-xl px-5 py-14 items-center md:w-3/12">
+              </Link>
+              <Link
+                to="/package"
+                className="flex flex-col justify-center bg-gray-100 mr-5 mt-5 bg-bandipur-hero-pattern bg-top bg-contain bg-no-repeat w-full rounded-3xl relative shadow-xl px-5 py-14 items-center md:w-3/12"
+              >
                 <div className="flex flex-col  absolute top-12 right-5 items-center">
                   <img src={heart_def} className="h-12" alt="heart" />
                   <p className="text-xl font-semibold text-white">273</p>
@@ -73,8 +79,11 @@ function Experiences() {
                     </div>
                   </div>
                 </div>
-              </div>
-              <div className="flex flex-col justify-center bg-gray-100 mr-5 mt-5 bg-bandipur-hero-pattern bg-top bg-contain bg-no-repeat w-full rounded-3xl relative shadow-xl px-5 py-14 items-center md:w-3/12">
+              </Link>
+              <Link
+                to="/package"
+                className="flex flex-col justify-center bg-gray-100 mr-5 mt-5 bg-bandipur-hero-pattern bg-top bg-contain bg-no-repeat w-full rounded-3xl relative shadow-xl px-5 py-14 items-center md:w-3/12"
+              >
                 <div className="flex flex-col  absolute top-12 right-5 items-center">
                   <img src={heart_def} className="h-12" alt="heart" />
                   <p className="text-xl font-semibold text-white">273</p>
@@ -99,8 +108,11 @@ function Experiences() {
                     </div>
                   </div>
                 </div>
-              </div>
-              <div className="flex flex-col justify-center bg-gray-100 mr-5 mt-5 bg-bandipur-hero-pattern bg-top bg-contain bg-no-repeat w-full rounded-3xl relative shadow-xl px-5 py-14 items-center md:w-3/12">
+              </Link>
+              <Link
+                to="/package"
+                className="flex flex-col justify-center bg-gray-100 mr-5 mt-5 bg-bandipur-hero-pattern bg-top bg-contain bg-no-repeat w-full rounded-3xl relative shadow-xl px-5 py-14 items-center md:w-3/12"
+              >
                 <div className="flex flex-col  absolute top-12 right-5 items-center">
                   <img src={heart_def} className="h-12" alt="heart" />
                   <p className="text-xl font-semibold text-white">273</p>
@@ -125,8 +137,11 @@ function Experiences() {
                     </div>
                   </div>
                 </div>
-              </div>
-              <div className="flex flex-col justify-center bg-gray-100 mr-5 mt-5 bg-bandipur-hero-pattern bg-top bg-contain bg-no-repeat w-full rounded-3xl relative shadow-xl px-5 py-14 items-center md:w-3/12">
+              </Link>
+              <Link
+                to="/package"
+                className="flex flex-col justify-center bg-gray-100 mr-5 mt-5 bg-bandipur-hero-pattern bg-top bg-contain bg-no-repeat w-full rounded-3xl relative shadow-xl px-5 py-14 items-center md:w-3/12"
+              >
                 <div className="flex flex-col  absolute top-12 right-5 items-center">
                   <img src={heart_def} className="h-12" alt="heart" />
                   <p className="text-xl font-semibold text-white">273</p>
@@ -151,8 +166,11 @@ function Experiences() {
                     </div>
                   </div>
                 </div>
-              </div>
-              <div className="flex flex-col justify-center bg-gray-100 mr-5 mt-5 bg-bandipur-hero-pattern bg-top bg-contain bg-no-repeat w-full rounded-3xl relative shadow-xl px-5 py-14 items-center md:w-3/12">
+              </Link>
+              <Link
+                to="/package"
+                className="flex flex-col justify-center bg-gray-100 mr-5 mt-5 bg-bandipur-hero-pattern bg-top bg-contain bg-no-repeat w-full rounded-3xl relative shadow-xl px-5 py-14 items-center md:w-3/12"
+              >
                 <div className="flex flex-col  absolute top-12 right-5 items-center">
                   <img src={heart_def} className="h-12" alt="heart" />
                   <p className="text-xl font-semibold text-white">273</p>
@@ -177,7 +195,7 @@ function Experiences() {
                     </div>
                   </div>
                 </div>
-              </div>
+              </Link>
             </div>
             <Link to="/">
               <button className=" bg-red-700 mx-auto mt-6 flex w-max text-white px-6 text-2xl py-3 rounded-3xl">

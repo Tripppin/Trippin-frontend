@@ -66,19 +66,19 @@ const Navbar = () => {
                 Experiences
               </Link>
             )}
-            {path === "blog" ? (
+            {path === "hire" ? (
               <Link
-                to="/blog"
+                to="/hire"
                 className="cursor-pointer px-5 py-2  border-b-2 border-red-500 "
               >
-                Blog
+                Hire
               </Link>
             ) : (
               <Link
                 className="cursor-pointer px-5 py-2 border-b-2 border-white hover:border-red-500 "
-                to="/blog"
+                to="/hire"
               >
-                Blog
+                Hire
               </Link>
             )}
           </ul>
@@ -123,7 +123,7 @@ const Navbar = () => {
             <Link to="/experiences">Experiences</Link>
           </li>
           <li className="cursor-pointer p-2 hover:bg-gray-200">
-            <Link to="/blog">Blog</Link>
+            <Link to="/hire">Hire</Link>
           </li>
         </ul>
       </div>

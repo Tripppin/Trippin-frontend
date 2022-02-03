@@ -18,8 +18,8 @@ function HomeSection() {
     <div className="experiences overflow-x-hidden  mx-auto flex-col w-full ">
       {/* popular_experiences_details */}
       <div className="flex flex-col  items-center md:h-screen pt-10 md:pt-36 md:bg-gray-100 ">
-        <div className="popular_experiences_header px-8 ">
-          <h1 className="text-5xl md:text-6xl font-bold md:w-7/12 ">
+        <div className="popular_experiences_header px-8 w-full ">
+          <h1 className="text-4xl md:text-6xl font-bold md:w-7/12 ">
             Popular Experiences
           </h1>
           <p className="py-5 text-xl ">
@@ -62,7 +62,7 @@ function HomeSection() {
         <div className="popular_experiences_header w-auto md:h-screen pt-40 md:bg-gray-200 ">
           <div className="flex flex-col justify-center items-center w-full px-10 md:w-9/12 ">
             <div>
-              <h1 className="text-5xl md:text-6xl font-bold  ">
+              <h1 className="text-4xl md:text-6xl font-bold  ">
                 Typical Tripping Experiences
               </h1>
               <p className="py-5 text-xl ">
@@ -98,7 +98,7 @@ function HomeSection() {
       <div className="why_tripping w-auto md:h-screen pt-40 ">
         <div className="flex flex-col md:flex-row  justify-center  mx-auto  md:w-10/12">
           <div className="md:flex-1 justify-center items-center px-10 md:px-14 w-full">
-            <h1 className="text-5xl md:text-6xl font-bold w-max ">
+            <h1 className="text-4xl md:text-6xl font-bold w-max ">
               Why Trippin?
             </h1>
             <img src={safe} className="h-80" alt="why trippin?" />
@@ -130,7 +130,7 @@ function HomeSection() {
       <div className="customer_reviewes w-auto md:h-screen pt-40 md:bg-gray-200 ">
         <div className="flex flex-col justify-center items-center w-full px-10  md:w-7/12 ">
           <div>
-            <h1 className="text-5xl md:text-6xl font-bold  ">
+            <h1 className="text-4xl md:text-6xl font-bold  ">
               Customer Reviews
             </h1>
             <p className="py-5 text-xl ">
@@ -223,7 +223,7 @@ function HomeSection() {
       <div className="our_impact  w-auto md:h-screen md:pt-40 ">
         <div className="hidden md:flex flex-col md:flex-row  justify-center  mx-auto  md:w-10/12">
           <div className="md:flex-1 justify-center items-center p-14 md:px-14 w-full">
-            <h1 className="text-5xl md:text-6xl font-bold w-full ">
+            <h1 className="text-4xl md:text-6xl font-bold w-full ">
               Our Impact
             </h1>
             <img
