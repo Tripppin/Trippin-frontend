@@ -230,11 +230,14 @@ const Navbar = () => {
                     Sign Up
                   </div>
                 </Link>
-                <Link to="/register">
+                <a
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSd_XNM7DAezyL_NMKqlbXaPZyQ-O5_0k43Nr0HPFOrVd2j5hw/viewform"
+                  target="_blank"
+                >
                   <div className="text-xl font-semibold hover:bg-gray-200 w-full px-5 rounded-xl py-1">
                     Register Service
                   </div>
-                </Link>
+                </a>
               </div>
             </div>
           </div>
@@ -326,7 +329,12 @@ const Navbar = () => {
               <Link to="/signup">Sign up</Link>
             </li>
             <li className="cursor-pointer p-2 hover:bg-gray-200">
-              <Link to="/register">Register Service</Link>
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSd_XNM7DAezyL_NMKqlbXaPZyQ-O5_0k43Nr0HPFOrVd2j5hw/viewform"
+                target="_blank"
+              >
+                Register Service
+              </a>
             </li>
           </div>
         </ul>
