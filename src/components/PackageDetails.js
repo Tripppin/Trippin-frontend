@@ -26,7 +26,7 @@ function PackageDetails() {
             experiencing the Tharu Culture in person.
           </p>
           <Link to="/experiences">
-            <button className=" bg-red-700 text-white px-8 mt-2 text-2xl py-3 rounded-3xl">
+            <button className=" bg-red-700 font-bold  hover:bg-white hover:text-red-700 text-white px-8 mt-2 text-2xl py-3 rounded-3xl">
               Explore
             </button>
           </Link>

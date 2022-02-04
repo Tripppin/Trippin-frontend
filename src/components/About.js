@@ -19,7 +19,7 @@ function About() {
             the community.
           </p>
           <Link to="/experiences">
-            <button className=" bg-red-700 text-white px-3 md:px-8 text-lg md:text-xl py-3 rounded-3xl">
+            <button className=" bg-red-700 font-bold hover:bg-white hover:text-red-700 text-white px-3 md:px-8 text-lg md:text-xl py-3 rounded-3xl">
               GET TO KNOW THE EXPERIENCES
             </button>
           </Link>

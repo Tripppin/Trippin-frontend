@@ -21,7 +21,7 @@ function Modal({ button, name, title, datatarget }) {
       <div className="">
         {button && (
           <button
-            className=" bg-red-600 text-white flex items-center px-8 text-center mx-auto py-2 rounded-3xl"
+            className=" bg-red-600 font-bold border-2 border-red-700 hover:bg-white hover:text-red-700 text-white flex items-center px-8 text-center mx-auto py-2 rounded-3xl"
             data-bs-toggle="modal"
             data-bs-target={datatarget}
           >

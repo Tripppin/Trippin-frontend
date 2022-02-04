@@ -51,7 +51,7 @@ function HomeSection() {
             />
           </div>
           <Link to="/experiences">
-            <button className=" bg-red-700 mx-auto flex w-max text-white px-6 text-xl py-3 rounded-3xl">
+            <button className=" bg-red-700 mx-auto flex w-max hover:text-red-700 border-2 border-red-700 font-bold hover:bg-white text-white px-6 text-xl py-3 rounded-3xl">
               View All
             </button>
           </Link>
@@ -119,7 +119,7 @@ function HomeSection() {
               <li className="text-2xl mb-4  ">Contribute to Greater Cause</li>
             </ul>
             <Link to="/about">
-              <button className=" bg-red-700 mx-auto flex w-max text-white px-6 text-2xl py-3 rounded-3xl">
+              <button className=" bg-red-700 mx-auto flex w-max border-2 border-red-700 hover:bg-white hover:text-red-700 font-bold text-white px-6 text-2xl py-3 rounded-3xl">
                 Learn More
               </button>
             </Link>

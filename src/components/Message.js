@@ -20,7 +20,7 @@ function Message() {
       <img
         src={message}
         alt="message"
-        className="absolute bottom-8 right-5 h-14 cursor-pointer"
+        className="absolute bottom-8 right-5 h-14 cursor-pointer transform hover:scale-110"
         data-bs-target="#exampleModal"
         data-bs-toggle="modal"
       />

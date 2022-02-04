@@ -206,7 +206,7 @@ function Experiences() {
               </Link>
             </div>
             <Link to="/">
-              <button className=" bg-red-700 mx-auto mt-6 flex w-max text-white px-6 text-2xl py-3 rounded-3xl">
+              <button className=" bg-red-700 mx-auto font-bold border-2 border-red-700 hover:bg-white hover:text-red-700 mt-6 flex w-max text-white px-6 text-2xl py-3 rounded-3xl">
                 View All
               </button>
             </Link>

@@ -12,7 +12,7 @@ function Home() {
           </h1>
           <Link
             to="/experiences"
-            className=" bg-red-700 text-white px-8 text-2xl py-3 rounded-3xl"
+            className=" bg-red-700 text-white hover:bg-white font-bold hover:text-red-700 px-8 text-2xl py-3 rounded-3xl"
           >
             Explore
           </Link>
