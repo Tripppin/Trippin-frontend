@@ -8,6 +8,7 @@ import heart_def from "../assets/Graphics/heart_def.svg";
 import map from "../assets/Graphics/map_icon.svg";
 import date from "../assets/Graphics/date_icon.svg";
 import Footer from "./Footer";
+import Modal from "./Modal";
 function PackageDetails() {
   return (
     <>
@@ -16,7 +17,7 @@ function PackageDetails() {
           <img src={heart_tapped} alt="" />
           <h1 className="text-white font-extrabold text-3xl">5172</h1>
         </div>
-        <div className="py-40 px-2 md:py-52 md:px-36">
+        <div className="py-40 px-2 md:py-36 md:px-36">
           <h1 className=" w-full md:w-6/12  text-5xl  md:text-7xl mb-5 font-bold text-white">
             Complete Bardiya
           </h1>
@@ -29,7 +30,7 @@ function PackageDetails() {
               Explore
             </button>
           </Link>
-          <div className="flex  bg-gray-100 mr-5 mt-5 w-full justify-between rounded-3xl shadow-xl px-5 py-14 md:w-1/2">
+          <div className="flex  bg-gray-100 mr-5 mt-5 w-full justify-between items-center rounded-3xl shadow-xl px-12 py-14 md:w-1/2">
             <div className="inquiry-left ">
               <div className="flex flex-col">
                 <div className="flex ">
@@ -89,11 +90,12 @@ function PackageDetails() {
                   <option value="4">4</option>
                 </select>
               </div>
-              <Link to="/experiences">
-                <button className=" bg-red-700 text-white flex items-center px-8 text-center mx-auto py-2 rounded-3xl">
-                  INQUIRE
-                </button>
-              </Link>
+              <Modal
+                button={true}
+                name={"INQUIRY"}
+                title="Inquiry"
+                datatarget="#exampleModalCenteredScrollable"
+              />
             </div>
             <div className="inquiry-right ml-2">
               <h1 className="text-4xl md:text-5xl flex flex-col md:flex-row justify-center items-center text-red-600 font-bold">
@@ -228,7 +230,7 @@ function PackageDetails() {
         </div>
       </div>
       {/* include and extend */}
-      <div className="include_exclude flex justify-center md:justify-between md:w-5/6 mx-auto md:bg-gray-200 rounded-3xl md:shadow-2xl mb-10 md:mb-40 md:py-32 md:px-20">
+      <div className="include_exclude flex justify-center md:justify-between md:w-5/6 mx-auto py-10 bg-gray-100  md:bg-gray-200 rounded-3xl md:shadow-2xl mb-10 md:mb-40 md:py-32 md:px-20">
         <div className="include flex flex-col ml-2">
           <h1 className="  text-4xl md:text-6xl mb-5 font-bold text-red-600">
             What's Included
@@ -287,7 +289,7 @@ function PackageDetails() {
                 <img src={heart_def} className="h-12" alt="heart" />
                 <p className="text-xl font-semibold text-white">273</p>
               </div>
-              <h1 className="text-3xl text-white w-max absolute top-32   ">
+              <h1 className="text-2xl text-white w-max bg-red-700 px-2 absolute top-32     ">
                 | Discover Bandipur
               </h1>
               <div className="flex justify-between mt-44 md:mt-36 items-center">
@@ -310,13 +312,13 @@ function PackageDetails() {
             </Link>
             <Link
               to="/package"
-              className="flex flex-col justify-center bg-gray-100 mr-5 mt-5 bg-bandipur-hero-pattern bg-top bg-contain bg-no-repeat w-full rounded-3xl relative shadow-xl px-5 py-14 items-center md:w-3/12"
+              className="flex flex-col justify-center bg-gray-100 mr-5 mt-5 bg-bardiya_tab-hero-pattern bg-top bg-contain bg-no-repeat w-full rounded-3xl relative shadow-xl px-5 py-14 items-center md:w-3/12"
             >
               <div className="flex flex-col  absolute top-12 right-5 items-center">
                 <img src={heart_def} className="h-12" alt="heart" />
                 <p className="text-xl font-semibold text-white">273</p>
               </div>
-              <h1 className="text-3xl text-white w-max absolute top-32   ">
+              <h1 className="text-2xl text-white w-max bg-red-700 px-2 absolute top-32   ">
                 | Complete Bardiya
               </h1>
               <div className="flex justify-between mt-44 md:mt-36 items-center">
@@ -339,13 +341,13 @@ function PackageDetails() {
             </Link>
             <Link
               to="/package"
-              className="flex flex-col justify-center md:bg-gray-200 mr-5 mt-5 bg-bandipur-hero-pattern bg-top bg-contain bg-no-repeat w-full rounded-3xl relative shadow-xl px-5 py-14 items-center md:w-3/12"
+              className="flex flex-col justify-center md:bg-gray-100 mr-5 mt-5 bg-narphu-hero-pattern bg-top bg-contain bg-no-repeat w-full rounded-3xl relative shadow-xl px-5 py-14 items-center md:w-3/12"
             >
               <div className="flex flex-col  absolute top-12 right-5 items-center">
                 <img src={heart_def} className="h-12" alt="heart" />
                 <p className="text-xl font-semibold text-white">273</p>
               </div>
-              <h1 className="text-3xl text-white w-max absolute top-32   ">
+              <h1 className="text-2xl text-white w-max bg-red-700 px-2 absolute top-32   ">
                 | Nar Phu Trek
               </h1>
               <div className="flex justify-between mt-44 md:mt-36 items-center">

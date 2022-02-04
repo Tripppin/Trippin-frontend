@@ -33,7 +33,7 @@ function Footer() {
               alt="search"
             />
           </div>
-          <Link to="/">
+          <Link to="/experiences">
             <button className=" bg-red-700 mx-auto mt-6 flex w-max text-white px-6 text-2xl py-3 rounded-3xl">
               Explore Experiences
             </button>
@@ -83,23 +83,27 @@ function Footer() {
               <Link to="/experiences" className="text-md">
                 Experiences Us
               </Link>
-              <Link to="/blog" className="text-md">
-                Blog
+              <Link to="/hire/homestay" className="text-md">
+                Hire
               </Link>
-              <Link to="/join" className="text-md">
+              <a
+                href="https://www.facebook.com/trippin.np"
+                className="text-md"
+                target="_blank"
+              >
                 Join Our Team
-              </Link>
+              </a>
             </div>
           </div>
           <div className="w-9/12 ml-4">
             <h1 className="text-2xl font-bold">Contact</h1>
             <div className="footer-middle-link flex flex-col">
-              <Link to="/about" className="text-md">
+              <a href="mailto:info@trippin.com" className="text-md">
                 info@trippin.com
-              </Link>
-              <Link to="/experiences" className="text-md">
+              </a>
+              <a href="tel:9841414141" className="text-md">
                 9841414141
-              </Link>
+              </a>
             </div>
           </div>
           <div className="w-9/12 ml-4">
@@ -110,9 +114,15 @@ function Footer() {
           </div>
         </div>
         <div className="footer-right flex justify-between space-x-4 ">
-          <img src={fb} className="h-12" alt="fb" />
-          <img src={insta} className="h-12" alt="insta" />
-          <img src={twitter} className="h-12" alt="twitter" />
+          <a href="https://www.facebook.com/trippin.np" target="_blank">
+            <img src={fb} className="h-12" alt="fb" />
+          </a>
+          <a href="https://www.facebook.com/trippin.np" target="_blank">
+            <img src={insta} className="h-12" alt="insta" />
+          </a>
+          <a href="https://www.facebook.com/trippin.np" target="_blank">
+            <img src={twitter} className="h-12" alt="twitter" />
+          </a>
         </div>
       </div>
     </>

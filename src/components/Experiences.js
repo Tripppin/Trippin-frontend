@@ -10,11 +10,19 @@ function Experiences() {
     <div className="experiences">
       <div className="experience_section1 ">
         {/* stories */}
-        <div className="experience_header flex w-max  space-x-6 md:space-x-12 mt-14 text-xl  mx-auto">
-          <h1>All</h1>
-          <h1>Experience</h1>
-          <h1>Trekking</h1>
-          <h1>Wildlife</h1>
+        <div className="experience_header flex w-max  space-x-2  text-md text-center md:space-x-12 mt-14 md:text-lg  mx-auto">
+          <h1 className="px-3 py-2 rounded-xl border-2 border-gray-200 shadow-md md:shadow-lg text-center  w-full">
+            All
+          </h1>
+          <h1 className="px-3 py-2 rounded-xl border-2 border-gray-200 shadow-md md:shadow-lg text-center w-full">
+            Experience
+          </h1>
+          <h1 className="px-3 py-2 rounded-xl border-2 border-gray-200 shadow-md md:shadow-lg text-center w-full">
+            Trekking
+          </h1>
+          <h1 className="px-3 py-2 rounded-xl border-2 border-gray-200 shadow-md md:shadow-lg text-center w-full">
+            Wildlife
+          </h1>
         </div>
         <div className="tripping_section3 py-10 px-5 flex flex-col md:px-36">
           <h1 className=" md:w-max text-4xl md:text-6xl mb-5 font-bold md:px-28 ">
@@ -24,13 +32,13 @@ function Experiences() {
             <div className="popular_experiences_images mx-auto p-2 flex-wrap flex justify-center  h-full  ">
               <Link
                 to="/package"
-                className="flex flex-col justify-center bg-gray-100 mr-5 mt-5 bg-bandipur-hero-pattern bg-top bg-contain bg-no-repeat w-full rounded-3xl relative shadow-xl px-5 py-14 items-center md:w-3/12"
+                className="flex flex-col justify-center  transition-all transform ease-in-out hover:scale-110 bg-gray-100 mr-5 mt-5 bg-bandipur-hero-pattern bg-top bg-contain bg-no-repeat w-full rounded-3xl relative shadow-xl px-5 py-14 items-center md:w-3/12"
               >
                 <div className="flex flex-col  absolute top-12 right-5 items-center">
                   <img src={heart_def} className="h-12" alt="heart" />
                   <p className="text-xl font-semibold text-white">273</p>
                 </div>
-                <h1 className="text-3xl text-white w-max absolute top-32   ">
+                <h1 className="text-2xl px-2 py-1 text-white w-max absolute top-32 bg-red-600  ">
                   | Discover Bandipur
                 </h1>
                 <div className="flex justify-between mt-44 md:mt-36 items-center">
@@ -53,13 +61,13 @@ function Experiences() {
               </Link>
               <Link
                 to="/package"
-                className="flex flex-col justify-center bg-gray-100 mr-5 mt-5 bg-bandipur-hero-pattern bg-top bg-contain bg-no-repeat w-full rounded-3xl relative shadow-xl px-5 py-14 items-center md:w-3/12"
+                className="flex flex-col justify-center transition-all transform ease-in-out hover:scale-110 bg-gray-100 mr-5 mt-5 bg-bardiya_tab-hero-pattern bg-top bg-contain bg-no-repeat w-full rounded-3xl relative shadow-xl px-5 py-14 items-center md:w-3/12"
               >
                 <div className="flex flex-col  absolute top-12 right-5 items-center">
                   <img src={heart_def} className="h-12" alt="heart" />
                   <p className="text-xl font-semibold text-white">273</p>
                 </div>
-                <h1 className="text-3xl text-white w-max absolute top-32   ">
+                <h1 className="text-2xl px-2 py-1 text-white w-max absolute top-32 bg-red-600  ">
                   | Complete Bardiya
                 </h1>
                 <div className="flex justify-between mt-44 md:mt-36 items-center">
@@ -82,13 +90,13 @@ function Experiences() {
               </Link>
               <Link
                 to="/package"
-                className="flex flex-col justify-center bg-gray-100 mr-5 mt-5 bg-bandipur-hero-pattern bg-top bg-contain bg-no-repeat w-full rounded-3xl relative shadow-xl px-5 py-14 items-center md:w-3/12"
+                className="flex flex-col justify-center transition-all transform ease-in-out hover:scale-110 bg-gray-100 mr-5 mt-5 bg-narphu-hero-pattern bg-top bg-contain bg-no-repeat w-full rounded-3xl relative shadow-xl px-5 py-14 items-center md:w-3/12"
               >
                 <div className="flex flex-col  absolute top-12 right-5 items-center">
                   <img src={heart_def} className="h-12" alt="heart" />
                   <p className="text-xl font-semibold text-white">273</p>
                 </div>
-                <h1 className="text-3xl text-white w-max absolute top-32   ">
+                <h1 className="text-2xl px-2 py-1 text-white w-max absolute top-32 bg-red-600  ">
                   | Nar Phu Trek
                 </h1>
                 <div className="flex justify-between mt-44 md:mt-36 items-center">
@@ -111,13 +119,13 @@ function Experiences() {
               </Link>
               <Link
                 to="/package"
-                className="flex flex-col justify-center bg-gray-100 mr-5 mt-5 bg-bandipur-hero-pattern bg-top bg-contain bg-no-repeat w-full rounded-3xl relative shadow-xl px-5 py-14 items-center md:w-3/12"
+                className="flex flex-col justify-center transition-all transform ease-in-out hover:scale-110 bg-gray-100 mr-5 mt-5 bg-bandipur-hero-pattern bg-top bg-contain bg-no-repeat w-full rounded-3xl relative shadow-xl px-5 py-14 items-center md:w-3/12"
               >
                 <div className="flex flex-col  absolute top-12 right-5 items-center">
                   <img src={heart_def} className="h-12" alt="heart" />
                   <p className="text-xl font-semibold text-white">273</p>
                 </div>
-                <h1 className="text-3xl text-white w-max absolute top-32   ">
+                <h1 className="text-2xl px-2 py-1 text-white w-max absolute top-32 bg-red-600  ">
                   | Discover Bandipur
                 </h1>
                 <div className="flex justify-between mt-44 md:mt-36 items-center">
@@ -140,13 +148,13 @@ function Experiences() {
               </Link>
               <Link
                 to="/package"
-                className="flex flex-col justify-center bg-gray-100 mr-5 mt-5 bg-bandipur-hero-pattern bg-top bg-contain bg-no-repeat w-full rounded-3xl relative shadow-xl px-5 py-14 items-center md:w-3/12"
+                className="flex flex-col justify-center transition-all transform ease-in-out hover:scale-110 bg-gray-100 mr-5 mt-5 bg-bardiya_tab-hero-pattern bg-top bg-contain bg-no-repeat w-full rounded-3xl relative shadow-xl px-5 py-14 items-center md:w-3/12"
               >
                 <div className="flex flex-col  absolute top-12 right-5 items-center">
                   <img src={heart_def} className="h-12" alt="heart" />
                   <p className="text-xl font-semibold text-white">273</p>
                 </div>
-                <h1 className="text-3xl text-white w-max absolute top-32   ">
+                <h1 className="text-2xl px-2 py-1 text-white w-max absolute top-32 bg-red-600  ">
                   | Complete Bardiya
                 </h1>
                 <div className="flex justify-between mt-44 md:mt-36 items-center">
@@ -169,13 +177,13 @@ function Experiences() {
               </Link>
               <Link
                 to="/package"
-                className="flex flex-col justify-center bg-gray-100 mr-5 mt-5 bg-bandipur-hero-pattern bg-top bg-contain bg-no-repeat w-full rounded-3xl relative shadow-xl px-5 py-14 items-center md:w-3/12"
+                className="flex flex-col justify-center transition-all transform ease-in-out hover:scale-110 bg-gray-100 mr-5 mt-5 bg-narphu-hero-pattern bg-top bg-contain bg-no-repeat w-full rounded-3xl relative shadow-xl px-5 py-14 items-center md:w-3/12"
               >
                 <div className="flex flex-col  absolute top-12 right-5 items-center">
                   <img src={heart_def} className="h-12" alt="heart" />
                   <p className="text-xl font-semibold text-white">273</p>
                 </div>
-                <h1 className="text-3xl text-white w-max absolute top-32   ">
+                <h1 className="text-2xl px-2 py-1 text-white w-max absolute top-32 bg-red-600  ">
                   | Nar Phu Trek
                 </h1>
                 <div className="flex justify-between mt-44 md:mt-36 items-center">

@@ -9,7 +9,7 @@ function About() {
   return (
     <>
       <div className="max-w-full overflow-hidden h-screen bg-about-hero-pattern bg-cover bg-no-repeat">
-        <div className="py-32 px-3 md:py-64 md:px-36">
+        <div className="py-32 px-3 md:py-56 md:px-36">
           <h1 className="w-full md:w-6/12  text-4xl  md:text-7xl mb-5 font-bold text-white">
             More than just a Travel Platform
           </h1>

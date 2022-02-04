@@ -18,8 +18,8 @@ function HomeSection() {
     <div className="experiences overflow-x-hidden  mx-auto flex-col w-full ">
       {/* popular_experiences_details */}
       <div className="flex flex-col  items-center md:h-screen pt-10 md:pt-36 md:bg-gray-100 ">
-        <div className="popular_experiences_header px-8 w-full ">
-          <h1 className="text-4xl md:text-6xl font-bold md:w-7/12 ">
+        <div className="popular_experiences_header px-10  md:w-4/5 w-full ">
+          <h1 className="text-4xl md:text-6xl font-bold  md:w-7/12 ">
             Popular Experiences
           </h1>
           <p className="py-5 text-xl ">
@@ -50,8 +50,8 @@ function HomeSection() {
               alt="jomsom"
             />
           </div>
-          <Link to="/">
-            <button className=" bg-red-700 mx-auto flex w-max text-white px-6 text-2xl py-3 rounded-3xl">
+          <Link to="/experiences">
+            <button className=" bg-red-700 mx-auto flex w-max text-white px-6 text-xl py-3 rounded-3xl">
               View All
             </button>
           </Link>
@@ -118,7 +118,7 @@ function HomeSection() {
               <li className="text-2xl mb-4  ">Feel True Nepali Culture</li>
               <li className="text-2xl mb-4  ">Contribute to Greater Cause</li>
             </ul>
-            <Link to="/">
+            <Link to="/about">
               <button className=" bg-red-700 mx-auto flex w-max text-white px-6 text-2xl py-3 rounded-3xl">
                 Learn More
               </button>
